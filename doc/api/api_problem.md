@@ -12,8 +12,8 @@ respone: {
   id:1      //long   题目id
   OJName: "hdu"  //string 所属OJ名字
   OJId:1    //long   OJid
-  OJNo:2001    //long   OJ里面的题号
-  name:"啦啦啦啦"   //string  题目名字
+  no:2001    //long   OJ里面的题号
+  title:"啦啦啦啦"   //string  题目名字
   typeName:"入门题"   //string 题目类型(算法入门)
   typeId:1     //long    题目类型id
   difficulty:2 //难度 10 int
@@ -36,30 +36,30 @@ get
 ```json
 requset: {
   id:0    //long
-  type:["time","memory","length","special"] // 类型 time, memory, length,special
+  type:["time","memory","length","hot"] // 类型 time, memory, length,hot
 }
 
 response: {
-  id,   //long
+  id,
   data:{
     [
       {
-        type:"time" // string time , memory, length
-        value:0  // 参数值 int
-        id:101     // codeId long
-        title:""   // 标题
+        type:"time"
+        value:0
+        id:101
+        title:""
       },
       {
-        type:"length" // string time , memory, length
-        value:100  // 参数值 int
-        id:101     // codeId long
-        title:""   // 标题
+        type:"length"
+        value:100
+        id:101
+        title:""
       },
       {
-        type:"special" // string time , memory, length
-        value:100  // 参数值 int
-        id:101     // codeId long
-        title:""   // 标题
+        type:"hot"
+        value:100
+        id:101
+        title:""
       }
     ]
   }
