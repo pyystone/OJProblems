@@ -1,4 +1,4 @@
-// 问题表
+### 问题表
 TABLE_PROBLEM
 
 |字段|类型|描述|
@@ -19,7 +19,7 @@ TABLE_PROBLEM
 |Note|varchar|题目注解|
 
 
-// 代码表
+### 代码表
 TABLE_CODE
 
 |字段|类型|描述|
@@ -34,19 +34,21 @@ TABLE_CODE
 |code|varchar|代码|
 
 
-// 题解表
+### 题解表
 TABLE_ANSWER
-|字段|类型|描述|
-|:---|:---|:---|
+
+|字段|类型|描述| 
+|:---|:---|:---| 
 |id|int|id|
 |codeid|int|对应题解id|
 |title|varchar|标题|
 |lastmodifytime|int|最近修改时间|
 |description|varchar|题解内容|
 
-// OJ
+### OJ列表
 TABLE_OJ
-|字段|类型|描述|
+
+|字段|类型|描述| 
 |:---|:---|:---|
 |id|int|id|
 |name|varchar|oj名字|
@@ -55,6 +57,7 @@ TABLE_OJ
 
 // 属于什么算法
 TABLE_PROBLEMTYPE
+
 |字段|类型|描述|
 |:---|:---|:---|
 |id|int|id|
