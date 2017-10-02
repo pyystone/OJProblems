@@ -56,7 +56,7 @@ response: {
 }
 ```
 
-forget_password : post
+/api/user/forgetPassword : post
 
 ```json
 

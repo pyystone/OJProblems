@@ -93,6 +93,8 @@ response: {
 }
 ```
 
+获得当前题目的特殊数据     /api/problem/getSpecialData
+
 
 errorCode:
 
